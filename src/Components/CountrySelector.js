@@ -20,7 +20,7 @@ const customStyles = {
   },
 }
 
-function CountrySelector() {
+const CountrySelector = () => {
   const [value, setValue] = useState('')
   const options = useMemo(() => countryList().getData(), [])
 

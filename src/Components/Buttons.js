@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Button, Stack } from '@mui/material'
 import FilterListIcon from '@mui/icons-material/FilterList'
 
-function Buttons({ paddingTop }) {
+const Buttons = ({ paddingTop }) => {
   return (
     <>
       <Stack

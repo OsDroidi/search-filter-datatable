@@ -26,7 +26,7 @@ const StyledTableCellInner = styled(TableCell)({
   borderRight: '1px solid rgba(224, 224, 224, 1)',
 })
 
-export default function StickyHeadTable() {
+const StickyHeadTable = () => {
   const [page, setPage] = useState(0)
   const [rowsPerPage, setRowsPerPage] = useState(10)
 
@@ -100,3 +100,5 @@ export default function StickyHeadTable() {
     </Paper>
   )
 }
+
+export default StickyHeadTable

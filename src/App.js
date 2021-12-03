@@ -4,7 +4,7 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import { SearchContextProvider } from './Context/Context'
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <SearchContextProvider>
