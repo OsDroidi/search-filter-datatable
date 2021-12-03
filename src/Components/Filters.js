@@ -28,13 +28,11 @@ const Filters = () => {
 
   const handleChange = (event) => {
     setSearchTerm(event.target.value)
-    console.log(event.target.value)
   }
 
   const handleChangeTwo = (event, newValue) => {
     setValue(newValue)
     setSearchTerm(event.target.value)
-    console.log(event.target.value)
   }
 
   return (
