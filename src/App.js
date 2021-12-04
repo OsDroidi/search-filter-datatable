@@ -9,11 +9,11 @@ const App = () => {
     <div className='App'>
       <SearchContextProvider>
         <Box>
-          <Grid container columns={{ xs: 1, sm: 8, md: 8 }}>
+          <Grid container columns={{ xs: 1, sm: 5, md: 8 }}>
             <Grid item xs={2} sm={2} md={2}>
               <Filters />
             </Grid>
-            <Grid item xs={2} sm={6} md={6}>
+            <Grid item xs={2} sm={3} md={6}>
               <Tables />
             </Grid>
           </Grid>

@@ -61,8 +61,6 @@ const StickyHeadTable = () => {
                   .join('')
                   .toLowerCase()
                   .includes(searchTerm.toLowerCase())
-                // val.Name.toLowerCase().includes(searchTerm.toLowerCase())
-                // val.Email.toLowerCase().includes(searchTerm.toLowerCase())
               ) {
                 return val
               }
